@@ -1,5 +1,5 @@
 # TiltIt
-Arduino code for a controller connected to a Stewart Platform from MarginallyClever (http://www.marginallyclever.com/product/rotary-stewart-platform-v2/)(https://github.com/MarginallyClever/RotaryStewartPlatform2).
+Arduino code for a controller connected to a Stewart Platform from MarginallyClever (http://www.marginallyclever.com/product/rotary-stewart-platform-v2/) (https://github.com/MarginallyClever/RotaryStewartPlatform2).
 Designs for the controller will be available as soon as time allows.
 
 See a video of the device in action: https://youtu.be/LdpKwXdAqzQ
