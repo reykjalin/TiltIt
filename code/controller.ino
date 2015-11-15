@@ -44,31 +44,31 @@ int msgSent = 0;
 /**** Number of messages sent this loop ****/
 
 void setup() {
-  Serial.begin(57600);
-  pinMode(L2,INPUT);
-  pinMode(L1,INPUT);
-  pinMode(R2,INPUT);
-  pinMode(leftbutton,INPUT);
-  pinMode(R1,INPUT);
-  pinMode(rightbutton,INPUT);
-  pinMode(ly,INPUT);
-  pinMode(lx,INPUT);
-  pinMode(rx,INPUT);
-  pinMode(ry,INPUT);
+	Serial.begin(57600);
+	pinMode(L2,INPUT);
+	pinMode(L1,INPUT);
+	pinMode(R2,INPUT);
+	pinMode(leftbutton,INPUT);
+	pinMode(R1,INPUT);
+	pinMode(rightbutton,INPUT);
+	pinMode(ly,INPUT);
+	pinMode(lx,INPUT);
+	pinMode(rx,INPUT);
+	pinMode(ry,INPUT);
 }
 
 void loop() {
     /**** Read button states ****/
-     int buttonStateL1 = digitalRead(L1);
-     int buttonStateL2 = digitalRead(L2);
-     int buttonStateR1 = digitalRead(R1);
-     int buttonStateR2 = digitalRead(R2); 
-     int buttonStateLsw = analogRead(leftbutton);
-     int buttonStateRsw = analogRead(rightbutton);
-     int buttonStately = analogRead(ly);
-     int buttonStatelx = analogRead(lx);
-     int buttonStatery = analogRead(ry);
-     int buttonStaterx = analogRead(rx);
+    int buttonStateL1 = digitalRead(L1);
+    int buttonStateL2 = digitalRead(L2);
+    int buttonStateR1 = digitalRead(R1);
+    int buttonStateR2 = digitalRead(R2); 
+    int buttonStateLsw = analogRead(leftbutton);
+    int buttonStateRsw = analogRead(rightbutton);
+    int buttonStately = analogRead(ly);
+    int buttonStatelx = analogRead(lx);
+    int buttonStatery = analogRead(ry);
+    int buttonStaterx = analogRead(rx);
 	/**** Read button states ****/
 
     /**** First part of command string ****/
