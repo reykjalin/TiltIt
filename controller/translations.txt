@@ -1,0 +1,5 @@
+front(magi) = front(stomach) : meaning the one facing towards you when you hold the controller
+front(vga) : the side where you plug the wires in
+hlid = side
+innanverdurstubbur : The pieces going from the "stubbur" pieces to the "front(stomach)/front(magi)" piece
+stubbur : The pieces on each side grip facing towards you
