@@ -18,4 +18,6 @@ Some of the part files have icelandic names, thus translations for some parts ha
 
 The controller has a VGA plug, you can see that in the designs. However you can't use a regular VGA cable to plug the controller to an Arduino since 4 of the 15 pins available in a regular VGA cable are connected together. We had a custom cable made for us with 15 individual wires and soldered the cable to a VGA plug so it'd be easy to connect the controller.
 
+For our design you need 12 pins from the controller to the Arduino. Of course you can do the design with fewer buttons and then you can use a regular VGA cable as long as you wire everything correctly.
+
 ----------------------------------------
